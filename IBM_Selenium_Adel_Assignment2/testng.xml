@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="OnlineShopping">
+
+<test name="Online">
+		<classes>
+			<class name="TesTCases.OnlineShop" />
+
+</classes>
+	</test>
+	
+	<test name="Shopping">
+		<classes>
+			
+			
+			<class name="TesTCases.CheapestPoplar" />
+			
+			<class name="TesTCases.ExpensiveSaller" />
+			
+			<class name="TesTCases.WomenDresses" />
+			
+			<class name="TesTCases.Card" />
+			
+			
+			
+		</classes>
+	</test>
+</suite>
+
+

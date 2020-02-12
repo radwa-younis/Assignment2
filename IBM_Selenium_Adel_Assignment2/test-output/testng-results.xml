@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="209176" started-at="2020-02-12T21:35:32 EET" finished-at="2020-02-12T21:39:01 EET">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Cucumber_Runner.Runner@396f6598]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="209176" started-at="2020-02-12T21:35:32 EET" finished-at="2020-02-12T21:39:01 EET">
+      <class name="Cucumber_Runner.Runner">
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:Cucumber_Runner.Runner@396f6598]" name="setUpClass" is-config="true" duration-ms="469" started-at="2020-02-12T21:35:32 EET" finished-at="2020-02-12T21:35:32 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Cucumber_Runner.Runner@396f6598]" name="feature" duration-ms="74557" started-at="2020-02-12T21:35:33 EET" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-02-12T21:36:47 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[CheapestPoplar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Cucumber_Runner.Runner@396f6598]" name="feature" duration-ms="57094" started-at="2020-02-12T21:36:47 EET" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-02-12T21:37:44 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Saller Poplar]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:Cucumber_Runner.Runner@396f6598]" name="feature" duration-ms="76757" started-at="2020-02-12T21:37:44 EET" description="Runs Cucumber Feature" data-provider="features" finished-at="2020-02-12T21:39:01 EET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Women Dresses]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:Cucumber_Runner.Runner@396f6598]" name="tearDownClass" is-config="true" duration-ms="6" started-at="2020-02-12T21:39:01 EET" finished-at="2020-02-12T21:39:01 EET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Cucumber_Runner.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

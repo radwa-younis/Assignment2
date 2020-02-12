@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [OnlineShopping]">
+  <test thread-count="5" name="Shopping(failed)">
+    <classes>
+      <class name="TesTCases.Card">
+        <methods>
+          <include name="Register"/>
+          <include name="move_to_Card"/>
+          <include name="Check"/>
+          <include name="Confirm"/>
+        </methods>
+      </class> <!-- TesTCases.Card -->
+    </classes>
+  </test> <!-- Shopping(failed) -->
+</suite> <!-- Failed suite [OnlineShopping] -->
